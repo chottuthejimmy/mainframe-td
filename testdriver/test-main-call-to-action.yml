@@ -1,0 +1,91 @@
+version: 4.0.57
+steps:
+  - prompt: Identify the main call to action button labeled "Continue to Signup."
+    commands:
+      - command: hover-text
+        text: Continue to Signup
+        description: main call to action button
+        action: hover
+  - prompt: Assert that the button is present and enabled.
+    commands:
+      - command: hover-text
+        text: Continue to Signup
+        description: main call to action button
+        action: hover
+      - command: assert
+        expect: the button is present and enabled
+  - prompt: Click the "Continue to Signup" button.
+    commands:
+      - command: hover-text
+        text: Continue to Signup
+        description: main call to action button
+        action: click
+  - prompt: Click the "Continue to Signup" button.
+    commands:
+      - command: scroll-until-text
+        text: Continue to Signup
+        direction: down
+      - command: hover-text
+        text: Continue to Signup
+        description: main call to action button
+        action: click
+  - prompt: Click the "Continue to Signup" button.
+    commands:
+      - command: hover-text
+        text: Continue to Signup
+        description: main call to action button
+        action: click
+  - prompt: Click the "Continue to Signup" button.
+    commands:
+      - command: hover-text
+        text: Continue to Signup
+        description: main call to action button
+        action: click
+  - prompt: Click the "Continue to Signup" button.
+    commands:
+      - command: hover-text
+        text: Continue to Signup
+        description: main call to action button
+        action: click
+  - prompt: Click the "Continue to Signup" button.
+    commands:
+      - command: hover-text
+        text: Continue to Signup
+        description: main call to action button
+        action: click
+  - prompt: Click the "Continue to Signup" button.
+    commands:
+      - command: scroll-until-text
+        text: Continue to Signup
+        direction: down
+      - command: hover-text
+        text: Continue to Signup
+        description: main call to action button
+        action: click
+  - prompt: Click the "Continue to Signup" button.
+    commands:
+      - command: scroll-until-text
+        text: Continue to Signup
+        direction: down
+      - command: hover-text
+        text: Continue to Signup
+        description: main call to action button
+        action: click
+  - prompt: Click the "Continue to Signup" button.
+    commands:
+      - command: scroll-until-text
+        text: Continue to Signup
+        direction: down
+      - command: hover-text
+        text: Continue to Signup
+        description: main call to action button
+        action: click
+  - prompt: Click the "Continue to Signup" button.
+    commands:
+      - command: scroll-until-text
+        text: Continue to Signup
+        direction: down
+      - command: hover-text
+        text: Continue to Signup
+        description: main call to action button
+        action: click
