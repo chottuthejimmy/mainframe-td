@@ -1,0 +1,89 @@
+version: 4.0.57
+steps:
+  - prompt: Navigate to the signup page.
+    commands:
+      - command: hover-text
+        text: Continue to Signup
+        description: button to proceed to the signup page
+        action: click
+  - prompt: Navigate to the signup page.
+    commands:
+      - command: scroll-until-text
+        text: Sign Up
+        direction: down
+      - command: hover-text
+        text: Sign Up
+        description: link or button to go to the signup page
+        action: click
+  - prompt: Navigate to the signup page.
+    commands:
+      - command: scroll-until-text
+        text: Sign Up
+        direction: down
+      - command: hover-text
+        text: Sign Up
+        description: link or button to go to the signup page
+        action: click
+  - prompt: Navigate to the signup page.
+    commands:
+      - command: scroll-until-text
+        text: Sign Up
+        direction: down
+      - command: hover-text
+        text: Sign Up
+        description: link or button to go to the signup page
+        action: click
+  - prompt: Navigate to the signup page.
+    commands:
+      - command: scroll-until-text
+        text: Sign Up
+        direction: down
+      - command: hover-text
+        text: Sign Up
+        description: link or button to go to the signup page
+        action: click
+  - prompt: Navigate to the signup page.
+    commands:
+      - command: scroll-until-text
+        text: Sign Up
+        direction: down
+      - command: hover-text
+        text: Sign Up
+        description: link or button to go to the signup page
+        action: click
+  - prompt: Navigate to the signup page.
+    commands:
+      - command: scroll-until-text
+        text: Sign Up
+        direction: down
+      - command: hover-text
+        text: Sign Up
+        description: link or button to go to the signup page
+        action: click
+  - prompt: Navigate to the signup page.
+    commands:
+      - command: scroll-until-text
+        text: Sign Up
+        direction: down
+      - command: hover-text
+        text: Sign Up
+        description: link or button to go to the signup page
+        action: click
+  - prompt: Navigate to the signup page.
+    commands:
+      - command: scroll-until-text
+        text: Sign Up
+        direction: down
+      - command: hover-text
+        text: Sign Up
+        description: link or button to go to the signup page
+        action: click
+  - prompt: Navigate to the signup page.
+    commands:
+      - command: scroll-until-text
+        text: Sign Up
+        direction: down
+      - command: hover-text
+        text: Sign Up
+        description: link or button to go to the signup page
+        action: click
