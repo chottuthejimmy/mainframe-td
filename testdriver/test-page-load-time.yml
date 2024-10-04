@@ -1,0 +1,132 @@
+version: 4.0.57
+steps:
+  - prompt: Measure the time taken for the homepage to load.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: press-keys
+        keys:
+          - f5
+      - command: wait-for-text
+        text: Create an account
+  - prompt: Measure the time taken for the homepage to load.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: press-keys
+        keys:
+          - f5
+      - command: wait-for-text
+        text: Create an account
+      - command: assert
+        expect: the homepage loaded successfully
+  - prompt: Measure the time taken for the homepage to load.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: press-keys
+        keys:
+          - f5
+      - command: wait-for-text
+        text: Create an account
+      - command: assert
+        expect: the homepage loaded successfully
+  - prompt: Measure the time taken for the homepage to load.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: press-keys
+        keys:
+          - f5
+      - command: wait-for-text
+        text: Create an account
+      - command: assert
+        expect: the homepage loaded successfully
+  - prompt: Measure the time taken for the homepage to load.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: press-keys
+        keys:
+          - f5
+      - command: wait-for-text
+        text: Create an account
+      - command: assert
+        expect: the homepage loaded successfully
+  - prompt: Assert that the load time is within acceptable limits
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: press-keys
+        keys:
+          - f5
+      - command: wait-for-text
+        text: Create an account
+      - command: assert
+        expect: the homepage loaded successfully
+  - prompt: Assert that the load time is within acceptable limits
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: press-keys
+        keys:
+          - f5
+      - command: wait-for-text
+        text: Create an account
+      - command: assert
+        expect: the homepage loaded successfully
+  - prompt: Assert that the load time is within acceptable limits
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: press-keys
+        keys:
+          - f5
+      - command: wait-for-text
+        text: Create an account
+      - command: assert
+        expect: the homepage loaded successfully
+  - prompt: Assert that the load time is within acceptable limits
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: press-keys
+        keys:
+          - f5
+      - command: wait-for-text
+        text: Create an account
+      - command: assert
+        expect: the homepage loaded successfully
+  - prompt: Assert that the load time is within acceptable limits
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: press-keys
+        keys:
+          - f5
+      - command: wait-for-text
+        text: Create an account
+      - command: assert
+        expect: the homepage loaded successfully
+  - prompt: Assert that the load time is within acceptable limits
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: press-keys
+        keys:
+          - f5
+      - command: wait-for-text
+        text: Create an account
+      - command: assert
+        expect: the homepage loaded successfully
+  - prompt: Assert that the load time is within acceptable limits
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: press-keys
+        keys:
+          - f5
+      - command: wait-for-text
+        text: Create an account
+      - command: assert
+        expect: the homepage loaded successfully
