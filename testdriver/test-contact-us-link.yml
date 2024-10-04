@@ -1,0 +1,22 @@
+version: 4.0.57
+steps:
+  - prompt: >-
+      Locate the "Terms of Service" or "Privacy Policy" link at the bottom of
+      the page.
+    commands:
+      - command: hover-text
+        text: Terms of Service
+        description: link at the bottom of the page
+        action: click
+  - prompt: Click on the "Terms of Service" link.
+    commands:
+      - command: hover-text
+        text: Terms of Service
+        description: link at the bottom of the page
+        action: click
+  - prompt: >-
+      Assert that a page or section with the terms of service content is
+      displayed.
+    commands:
+      - command: assert
+        expect: the terms of service content is displayed
