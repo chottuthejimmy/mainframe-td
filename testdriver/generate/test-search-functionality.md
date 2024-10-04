@@ -1,0 +1,1 @@
+1. /explore Locate the search bar on the webpage
