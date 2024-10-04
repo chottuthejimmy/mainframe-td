@@ -1,0 +1,28 @@
+version: 4.0.57
+steps:
+  - prompt: Navigate to a non-existent page by entering a wrong URL.
+    commands:
+      - command: hover-text
+        text: app.mainframe.so/setup
+        description: address bar
+        action: click
+      - command: type
+        text: non-existent-page
+      - command: press-keys
+        keys:
+          - enter
+  - prompt: Navigate to a non-existent page by entering a wrong URL.
+    commands:
+      - command: hover-text
+        text: google.com
+        description: address bar
+        action: click
+      - command: type
+        text: http://nonexistentwebsite12345.com
+      - command: press-keys
+        keys:
+          - enter
+  - prompt: Assert that an appropriate error message or 404 page is displayed.
+    commands:
+      - command: assert
+        expect: This site can't be reached
