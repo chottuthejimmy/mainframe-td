@@ -1,0 +1,25 @@
+version: 4.0.57
+steps:
+  - prompt: Scroll to the footer section of the page.
+    commands:
+      - command: scroll-until-text
+        text: Terms of Service
+        direction: down
+  - prompt: Identify all links in the footer.
+    commands:
+      - command: hover-text
+        text: Terms of Service
+        description: link in the footer
+        action: hover
+      - command: hover-text
+        text: Privacy Policy
+        description: link in the footer
+        action: hover
+  - prompt: Click on each link and assert that they navigate to the correct page.
+    commands:
+      - command: hover-text
+        text: Terms of Service
+        description: link in the footer
+        action: click
+      - command: assert
+        expect: the URL is "https://www.mainframe.so/terms"
