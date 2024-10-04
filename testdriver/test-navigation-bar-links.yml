@@ -1,0 +1,113 @@
+version: 4.0.57
+steps:
+  - prompt: Identify the navigation bar on the webpage.
+    commands:
+      - command: hover-text
+        text: Mainframe
+        description: main navigation bar
+        action: hover
+  - prompt: Identify the navigation bar on the webpage.
+    commands:
+      - command: hover-text
+        text: Mainframe
+        description: main navigation bar
+        action: click
+      - command: scroll-until-text
+        text: Home
+        direction: down
+  - prompt: Identify the navigation bar on the webpage.
+    commands:
+      - command: hover-text
+        text: Mainframe
+        description: main navigation bar
+        action: hover
+      - command: hover-text
+        text: Continue to Signup
+        description: signup button
+        action: hover
+  - prompt: Identify the navigation bar on the webpage.
+    commands:
+      - command: hover-text
+        text: Mainframe
+        description: main navigation bar
+        action: hover
+      - command: hover-text
+        text: Terms of Service
+        description: footer link
+        action: hover
+  - prompt: Identify the navigation bar on the webpage.
+    commands:
+      - command: hover-text
+        text: Mainframe
+        description: main navigation bar
+        action: hover
+      - command: hover-text
+        text: Home
+        description: home link in navigation bar
+        action: hover
+  - prompt: Identify the navigation bar on the webpage.
+    commands:
+      - command: hover-text
+        text: Mainframe
+        description: main navigation bar
+        action: hover
+      - command: hover-text
+        text: Create an account
+        description: account creation section
+        action: hover
+      - command: hover-text
+        text: Continue to Signup
+        description: signup button
+        action: hover
+  - prompt: Identify the navigation bar on the webpage.
+    commands:
+      - command: hover-text
+        text: Mainframe
+        description: main navigation bar
+        action: hover
+      - command: hover-text
+        text: Create an account
+        description: account creation section
+        action: hover
+  - prompt: Identify the navigation bar on the webpage.
+    commands:
+      - command: hover-text
+        text: Mainframe
+        description: main navigation bar
+        action: hover
+      - command: hover-text
+        text: Create an account
+        description: account creation section
+        action: hover
+      - command: hover-text
+        text: Continue to Signup
+        description: signup button
+        action: hover
+  - prompt: Identify the navigation bar on the webpage.
+    commands:
+      - command: hover-text
+        text: Mainframe
+        description: main logo or title
+        action: hover
+      - command: hover-text
+        text: Terms of Service
+        description: footer link
+        action: hover
+      - command: hover-text
+        text: Privacy Policy
+        description: footer link
+        action: hover
+  - prompt: Identify the navigation bar on the webpage.
+    commands:
+      - command: hover-text
+        text: Mainframe
+        description: main logo or title
+        action: hover
+      - command: hover-text
+        text: Create an account
+        description: account creation section
+        action: hover
+      - command: hover-text
+        text: Continue to Signup
+        description: signup button
+        action: hover
